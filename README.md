@@ -2,52 +2,85 @@
 
 
 
-# [Project Name] 🎯
+
+# The Calculator 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Cherrapunji
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Bharath Chandran B - College of Engineering Trivandrum CET
+- Member 2: Evan Paul Jacob - College of Engineering Trivandrum CET
 
 ### Project Description
-[2-3 lines about what your project does]
+Calculator is a deliberately frustrating calculator that refuses to behave like a normal calculator. 
+Operator buttons are randomly reassigned, so pressing `+`, `-`, `×`, or `÷` may produce a completely different operator. The buttons also float and dodge the user, making even a simple calculation unnecessarily difficult. Just when the user thinks they have figured everything out, the `=` button can trigger another random betrayal.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Normal calculators are too predictable.
+
+You press `+`, and it gives you `+`.
+You press `×`, and it actually multiplies.
+You press `=`, and it gives you the answer.
+
+Where is the challenge? Where is the suffering?
+
+Modern society has made calculations far too easy, and users no longer experience the thrill of fighting for a basic arithmetic result.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Calculator solves this completely imaginary problem by making calculations unnecessarily difficult.
+
+Every time the calculator starts or the user presses `AC`, the operators are randomly reassigned. Pressing one operator may display a completely different one.
+
+The operator buttons float around the interface, forcing the user to chase the button they want while trying to figure out which operator currently produces the correct symbol.
+
+An anger meter starts when the user presses the first number of a new calculation and continues increasing while they struggle to complete the expression. If it reaches 100%, a video and audio rage event is triggered.
+
+Once the user finally constructs the required expression and presses `=`, the calculator may trigger additional random chaos such as sound or video effects.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages used:
+  - JavaScript
+  - JSX
+  - CSS
+- Frameworks used:
+  - React
+  - Vite
+- Libraries used:
+  - Lucide React
+- Tools used:
+  - Visual Studio Code
+  - Node.js
+  - npm
+  - Git
+  - GitHub
+  - Google Chrome
+  - Chrome DevTools
+  - Vercel
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Laptop / PC
+- Mouse or touchpad
+- Speakers / headphones
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+'''bash
+npm install
 
 # Run
-[commands]
+npm run dev
 
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
@@ -58,8 +91,37 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+User opens Calculator
+        ↓
+User presses first number
+        ↓
+Anger meter starts
+        ↓
+User selects an operator
+        ↓
+Floating / dodging operator button
+        ↓
+Random operator mapping applied
+        ↓
+Wrong operator may appear
+        ↓
+User either:
+   ├── presses Backspace → tries again
+   ├── presses AC → clear + new random mapping
+   └── continues expression
+        ↓
+Expression completed
+        ↓
+User presses =
+        ↓
+Anger meter stops
+        ↓
+Random chaos event
+(sound / video / other effect)
+        ↓
+Result / final response
+
+*Workflow of The Calculator showing user input, anger meter progression, floating operator interaction, randomized operator mapping, AC reset behavior, and random sound/video chaos events triggered during the calculation.*
 
 For Hardware:
 
@@ -94,6 +156,10 @@ For Hardware:
 - [Name 3]: [Specific contributions]
 
 ---
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
